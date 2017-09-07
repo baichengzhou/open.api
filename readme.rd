@@ -13,9 +13,10 @@
 
 4.遇到的坑
     1>.getOne ，get*系列的方法有毒，而且是有传染的毒。就是如果我调用了一个getOne，那么下面正常的find*都会和get*一样不好使。
-    2>.数据库编码问题，本身不应该出现的，没在数据库链接上加上“?useUnicode=true&characterEncoding=utf-8” 导致中文查询和插入乱码。
+    2>.数据库编码问题，本身不应该出现的，没在数据库链接上加上“?useUnicode=true&characterEncoding=utf-8” 导致中文查询和插入乱码
 
-goto : http://www.sojson.com
+
+
 
 
 
