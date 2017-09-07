@@ -1,0 +1,1 @@
+insert into `weather`(`id`,`city`,`city_id`,`sunrise`,`sunset`,`weather`) values ( '1','北京','100100','5:36','18:21','晴转多云');
